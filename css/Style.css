@@ -1,0 +1,143 @@
+*::after,
+*::before,
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Verdana;
+
+}
+
+.header {
+  margin: 50px;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-container h2 {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin: 20px;
+  }
+
+  .col-6 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+
+.container{
+  margin: 20px 20px;
+  max-width: 600px;
+  padding: 20px 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.nosotros{
+  align-content: center;
+  text-align: center;
+}
+
+.head {
+  text-align: center;
+  background-color: #82a0d1;
+}
+
+.flecha{
+  text-align: left;
+
+}
+
+  .seccion1 {
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* align-content: center; */
+    justify-content: space-evenly;
+  }
+ 
+
+  .box1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(107, 107, 109);
+    display: inline-block;
+    border-color: black;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-content: center;
+    justify-content: center ;
+
+  } 
+  .img1 {
+    width: 500px;
+    height: 50px;
+    border: 2px solid;
+  }
+
+  .box2 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(107, 107, 109);
+    border-color: black;
+    border: 2px solid;
+
+  } 
+
+  .box3 {
+    display: inline-block;
+    width: 100px;
+    height: 120px;
+    background-color: rgb(107, 107, 109);
+    border-color: black;
+    border: 2px solid;
+
+  } 
+
+  .box4 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(107, 107, 109);
+    border-color: black;
+    border: 2px solid;
+
+  } 
+
+  .box5 {
+    display: inline-block;
+    width: 100px;
+    height: 120px;
+    background-color: rgb(107, 107, 109);
+    border-color: black;
+    border: 2px solid;
+  } 
