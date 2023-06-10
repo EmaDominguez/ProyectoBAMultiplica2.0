@@ -8,7 +8,10 @@
 
 body{
   font-family: Verdana;
+}
 
+.navbar-custom {
+ background-color: #82a0d1; 
 }
 
 .header {

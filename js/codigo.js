@@ -7,5 +7,5 @@ document.getElementById("myFooter").addEventListener("click", miFuncion);
 
 function miFuncion() {
 // Mensaje Emergente
-  alert("Hiciste click en el pie de la pagina, claramente no te muestra nada mas que esta ventana =)");
+  alert("Felicitaciones! Encontraste el panel secreto. Mencionando 'POROTOS QUEMADOS' obtendras un 20% de descuento en nuestros servicios, que lo disfrutes! ");
 }
